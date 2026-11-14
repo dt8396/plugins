@@ -2,13 +2,13 @@
 SCRIPTMETA-BEGIN
 Script-ID=blue.nanika.photo.lightroom.mask-failed-label
 Name=マスク失敗ラベリング
-Author=mizu
+Author=mizu（ @mizubeni142202 ）、ReCos開発室（ @mizu_alpha ）
 Target-App=Lightroom
-Version=1.0.2
+Version=1.0.3
 Meta-URL=https://github.com/dt8396/plugins/tree/main/Lightroom
 Description-BEGIN
 マスクの失敗がある写真に、カラーラベルと評価を設定します。
-製作サークルは ReCos開発室（X @mizu_alpha）、製作者は mizu（X @mizubeni142202）です。
+Sets a color label and a rating on photos whose masks have failed.
 Description-END
 SCRIPTMETA-END
 ]]
@@ -37,5 +37,5 @@ return {
         },
     },
 
-    VERSION = { major = 1, minor = 0, revision = 2, build = 0 },
+    VERSION = { major = 1, minor = 0, revision = 3, build = 0 },
 }
