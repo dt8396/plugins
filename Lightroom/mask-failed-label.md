@@ -10,8 +10,8 @@ Lightroom Classic 12 以降。
 
 ## インストール
 
-1. [リポジトリの ZIP](https://github.com/dt8396/plugins/archive/refs/heads/main.zip) をダウンロードして展開する。
-2. 展開した中の `Lightroom/mask-failed-label.lrplugin` フォルダを使う。中のファイルではなく、このフォルダ自体を選ぶ。
+1. [mask-failed-label.lrplugin.zip](https://github.com/dt8396/plugins/raw/refs/heads/main/Lightroom/mask-failed-label.lrplugin.zip) をダウンロードして展開する。このファイルには、このプラグインだけが入っています。
+2. 展開した `mask-failed-label.lrplugin` フォルダを使う。中のファイルではなく、このフォルダ自体を選ぶ。
 3. Lightroom Classic で `ファイル > プラグインマネージャー...` を開く。
 4. `追加` を押し、`mask-failed-label.lrplugin` フォルダを選ぶ。
 5. 一覧に「マスク失敗ラベリング」が表示され、有効になっていれば完了です。再起動は不要です。
