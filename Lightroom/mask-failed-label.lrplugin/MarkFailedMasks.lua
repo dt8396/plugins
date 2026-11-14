@@ -99,17 +99,20 @@ local function showChoiceDialog()
                     width_in_chars = 16,
                 },
             },
-            f:static_text {
-                title = 'Copyright (c) 2026 mizu, ReCos開発室',
-                width_in_chars = 46,
-            },
-            f:static_text {
-                title = PLUGINS_URL,
-                text_color = LrColor(0, 0.3, 0.8),
-                width_in_chars = 46,
-                mouse_down = function()
-                    LrHttp.openUrlInBrowser(PLUGINS_URL)
-                end,
+            f:row {
+                spacing = f:label_spacing(),
+                f:static_text {
+                    title = 'Copyright (c) 2026 mizu, ReCos開発室',
+                    font = '<system/small>',
+                },
+                f:static_text {
+                    title = PLUGINS_URL,
+                    font = '<system/small>',
+                    text_color = LrColor(0, 0.3, 0.8),
+                    mouse_down = function()
+                        LrHttp.openUrlInBrowser(PLUGINS_URL)
+                    end,
+                },
             },
         }
 
