@@ -1,0 +1,6 @@
+SCRIPTMETA-DIST-BEGIN
+
+Script-ID=blue.nanika.photo.lightroom.mask-failed-label
+Version=1.0.0
+
+SCRIPTMETA-DIST-END
