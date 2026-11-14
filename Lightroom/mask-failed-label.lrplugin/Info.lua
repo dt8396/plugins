@@ -25,7 +25,7 @@ return {
         ja = 'マスク失敗ラベリング',
     },
 
-    LrPluginInfoUrl = 'https://photo.nanika.blue/plugins/',
+    LrPluginInfoUrl = 'https://github.com/dt8396/plugins/blob/main/Lightroom/mask-failed-label.md',
 
     LrInitPlugin = 'CheckUpdate.lua',
     LrForceInitPlugin = true,
