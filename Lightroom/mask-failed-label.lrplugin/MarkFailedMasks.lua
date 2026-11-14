@@ -2,10 +2,14 @@
 
 local LrApplication = import 'LrApplication'
 local LrBinding = import 'LrBinding'
+local LrColor = import 'LrColor'
 local LrDialogs = import 'LrDialogs'
 local LrFunctionContext = import 'LrFunctionContext'
+local LrHttp = import 'LrHttp'
 local LrTasks = import 'LrTasks'
 local LrView = import 'LrView'
+
+local PLUGINS_URL = 'https://photo.nanika.blue/plugins/'
 
 local COLOR_ITEMS = {
     { title = '変更しない', value = 'unchanged' },
@@ -94,6 +98,18 @@ local function showChoiceDialog()
                     items = RATING_ITEMS,
                     width_in_chars = 16,
                 },
+            },
+            f:static_text {
+                title = 'Copyright (c) 2026 mizu, ReCos開発室',
+                width_in_chars = 46,
+            },
+            f:static_text {
+                title = PLUGINS_URL,
+                text_color = LrColor(0, 0.3, 0.8),
+                width_in_chars = 46,
+                mouse_down = function()
+                    LrHttp.openUrlInBrowser(PLUGINS_URL)
+                end,
             },
         }
 
