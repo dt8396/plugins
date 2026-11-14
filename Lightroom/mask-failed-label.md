@@ -2,8 +2,6 @@
 
 失敗しているマスクが、指定した件数以上ある写真に、カラーラベルと評価を設定します。
 
-製作サークルは ReCos開発室（X [@mizu_alpha](https://x.com/mizu_alpha)）、製作者は mizu（X [@mizubeni142202](https://x.com/mizubeni142202)）です。
-
 ## 動作環境
 
 Lightroom Classic 12 以降。
