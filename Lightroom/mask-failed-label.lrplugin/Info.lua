@@ -10,8 +10,7 @@ Version=1.1.0
 Meta-URL=https://github.com/dt8396/plugins/tree/main/Lightroom
 Description-BEGIN
 [ja]マスクの失敗がある写真に、カラーラベルと評価を設定します。
-[en]
-Sets a color label and a rating on photos whose masks have failed.
+[en]Sets a color label and a rating on photos whose masks have failed.
 Description-END
 SCRIPTMETA-END
 ]]
